@@ -45,7 +45,7 @@ public class RegistrationTestWithFaker extends TestBase{
                 .verifyTableValues("Subjects", testData.subjects[0])
                 .verifyTableValues("Hobbies", testData.hobbies[0])
                 .verifyTableValues("Picture", testData.img)
-                .verifyTableValues("State and City", "testData.state");
+                .verifyTableValues("State and City", testData.state);
         });
 
     }
